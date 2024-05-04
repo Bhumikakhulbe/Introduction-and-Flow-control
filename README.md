@@ -1,13 +1,13 @@
 Module1.1 AREA AND PERIMETER
-I have made different functions for different shapes and have used different formulas for area and perimeter of different shapes.
-These functions will take the radius, side, length, breadth, height of the shapes as per need and calculate the area and perimeter using certain formulas.
-Then I've printed a list of shapes and asked the user to enter the shape from the list.
-According to the choice of user the function belonging to that shape will be called and the output will be printed.
+Firstly print the list of shapes and ask the user to enter any shape from the list. The choice can be either a serial number or the Name of shape.
+According to the choice of user the various parameters are taken as input i.e radius, sides, length, breadth, base and height.
+After taking the input from the user the code will check the if-elif-else conditions and check which condition stands true.
+It will then provide the area and perimeter of the selected shape.
 
 Module1.2 NUMBER GUESSING GAME
-I have used the module random and the function random.randint(lower,upper) which generates any random number between the given range i.e between Lower and upper.
-The Game will start with some starting statements.
-The loop will run 6 times and ask you your guess and then the if, elif and else statements will check whether the entered number in between the range or not.
-Then it will check whether the number is greater than, less than or equal to the generated number or not. If the user guessed the correct answer the loop will break.
-It will print the output respectively.
-Once the game is finished it will print the ending statement.
+The module random is used in this program.
+The function random.randint(lower,upper) is used to generate a random number between the given range i.e between Lower and upper.
+Here lower is taken as 0 and upper is taken as 100. The print function will print the statements and then the loop will run 6 times and ask you your guess.
+The if function will check whether the entered number is in between the range or not.
+Then the elif and else functions will check whether the number is greater than, less than or equal to the generated number or not and print accordingly. 
+If the user guessed the correct answer the loop will break and the print function will print the statements.
