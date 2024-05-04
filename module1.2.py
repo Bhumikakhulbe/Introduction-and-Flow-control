@@ -12,5 +12,4 @@ for i in range(6):
     else:
         print("congratulations!\nYou guessed the correct number.")
         break
-        
 print("\nThe game is over.\nThankyou for playing this game!")
