@@ -1,7 +1,7 @@
 import random #this module is imported to access the randint() function
 print("This is a 'NUMBER GUESSING GAME'.\nA secret number will be generated between the range specified by you.\nYou have 6 attempts to guess that number.\nALL THE BEST!")
 print("\nPlease select the range of the numbers between which you want to guess to number ")
-lower=int(input("Enter the starting number: "))
+lower=int(input("Enter the starting number: ")) #takes the input from user
 upper=int(input("Enter the ending number: "))
 x=random.randint(lower,upper)  #generates a random number between the given range
 for i in range(6): #the loop will run 6 times 
